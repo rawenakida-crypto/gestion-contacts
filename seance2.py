@@ -245,12 +245,3 @@ def menu():
                 print("Au revoir !")
                 break
 
-            else:
-                print("Choix invalide. Choisissez de 1 a 9.")
-
-        except ValueError:
-            print("Erreur : entrez un nombre valide.")
-
-
-if __name__ == "__main__":
-    menu()
