@@ -229,20 +229,6 @@ def menu():
                 print("2. JSON")
                 print("3. Ne pas sauvegarder")
 
-                try:
-                    format_sauvegarde = int(input("Votre choix : "))
-
-                    if format_sauvegarde == 1:
-                        sauvegarder_csv()
-                    elif format_sauvegarde == 2:
-                        sauvegarder_json()
-                    elif format_sauvegarde != 3:
-                        print("Choix invalide.")
-
-                except ValueError:
-                    print("Choix invalide. Sauvegarde non effectuee.")
-
-                print("Au revoir !")
-                break
+                
                 
 
